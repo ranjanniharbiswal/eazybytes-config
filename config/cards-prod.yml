@@ -1,0 +1,12 @@
+
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to EazyBank cards related QA APIs "
+  contactDetails:
+    name: "PROD--Dev"
+    email: "rr@gg,com"
+  onCallSupport:
+    - (+91) 11111111
+    - (+91) 523-1345

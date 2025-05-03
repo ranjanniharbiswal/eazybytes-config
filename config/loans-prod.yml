@@ -1,0 +1,12 @@
+
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to EazyBank Loans related Local APIs "
+  contactDetails:
+    name: "Prod--Dev"
+    email: "rr@gg,com"
+  onCallSupport:
+    - (+91) 11111111
+    - (+91) 523-1345

@@ -1,0 +1,37 @@
+#
+#spring:
+#  application:
+#    name: account
+#  datasource:
+#    url: jdbc:h2:mem:mydb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password: ''
+#
+#  h2:
+#    console:
+#      enabled: true
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#  config:
+#    import:
+#      - "accounts-qa.yml"
+#      - "accounts-prod.yml"
+#
+#server:
+#  port: 8080
+
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related local APIs "
+  contactDetails:
+    name: "Local-- Dev"
+    email: "ank@gg.com"
+  onCallSupport:
+    - (+91) 8249429325
+    - (+91) 523-1345
