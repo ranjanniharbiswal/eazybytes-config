@@ -1,0 +1,12 @@
+
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to EazyBank Loans related QA APIs "
+  contactDetails:
+    name: "QA--Dev"
+    email: "rr@gg,com"
+  onCallSupport:
+    - (+91) 11111111
+    - (+91) 523-1345

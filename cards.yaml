@@ -1,0 +1,38 @@
+#spring:
+#  application:
+#    name: Cards
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password: ''
+#  h2:
+#    console:
+#      enabled: true
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#  config:
+#    import:
+#      - "cards-qa.yml"
+#      - "cards-prod.yml"
+#
+#server:
+#  port: 9000
+#  config:
+#    activate:
+#      on-profile: "prod"
+
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to EazyBank cards related Local APIs "
+  contactDetails:
+    name: "Local--Dev"
+    email: "rr@gg,com"
+  onCallSupport:
+    - (+91) 11111111
+    - (+91) 523-1345
