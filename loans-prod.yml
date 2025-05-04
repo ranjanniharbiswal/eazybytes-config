@@ -3,7 +3,7 @@ build:
   version: "1.0"
 
 loans:
-  message: "Welcome to EazyBank Loans related Production APIs "
+  message: "Welcome to EazyBank Loans related Prod_s APIs "
   contactDetails:
     name: "Prod--Dev"
     email: "rr@gg,com"
