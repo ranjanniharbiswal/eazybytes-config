@@ -28,7 +28,7 @@ build:
   version: "3.0"
 
 accounts:
-  message: "Welcome to EazyBank account             related default APIs "
+  message: "Welcome to EazyBank account-related fault APIs "
   contactDetails:
     name: "Local-- Dev"
     email: "ank@gg.com"
